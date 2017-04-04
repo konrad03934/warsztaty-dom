@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<p>to jest paragraf1</p>
+	<p>to jest paragraf2</p>
+	<button id="tlo">ustaw tło paragrafów</button>
+	
+	<form id="formularz" onsubmit="pobierzimie(event)">
+		Imię <input type="text" name="Iname" value="Konrad"><br />
+		Nazwisko <input type="text" name="fname" value="Kowalczyk"><br />
+		<input id="przeslij" type="submit" value="Submit">
+		
+	</form>
+	
+	<form action="">
+		<label for="kon">Imię i Nazwisko</label>
+		<input type="text" name="name" id="kon"><br />
+		<label for="mail">E-mail</label>
+		<input type="email" name="email" id="mail"><br />
+		<label for="check">Wyrażam zgodę na wszystko:-)</label>
+		<input type="checkbox" id="check"><br />
+		<label for="check">i na to też</label>
+		<input type="checkbox" id="check"><br />
+		<label for="check">znowu się zgadzam</label>
+		<input type="checkbox" id="check"><br />
+		<input id="wysylam" type="submit" value="Submit">
+	</form>
+	
+	<script src="js/javascript.js"></script>
+</body>
+</html>
